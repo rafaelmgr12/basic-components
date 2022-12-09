@@ -15,13 +15,19 @@ body {
     border-bottom: 1px solid #CFCFCF;
   }
   
-  .menu__main__item:hover {
+  .menu__main__item:first-child:hover {
     background: white;
     border-bottom: none;
     border-right: 1px solid #CFCFCF;
     border-left: 1px solid #CFCFCF;
     margin: 0 -1px;
   }
+  
+  .menu__main__item:last-child:hover {
+    border-right: none;
+    margin-right: 0;
+  }
+  
   
   .menu__main__item--current .menu__main__item__link {
     color: #333333;
